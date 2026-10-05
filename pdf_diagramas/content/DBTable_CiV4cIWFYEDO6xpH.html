@@ -54,7 +54,7 @@ Diagramas Dulce Capricho		</span>
 	<p>
 	</p>
 	<p class="PageTitle">
-Entity - Categoria<a onclick="javascript: showVpLink('diagramas dulce paricho.vpp://modelelement/fxwkcwWGAqACCga1', 'Categoria\ndiagramas dulce paricho.vpp://modelelement/fxwkcwWGAqACCga1', 'Categoria', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
+Entity - Pedido_Toppings<a onclick="javascript: showVpLink('diagramas dulce paricho.vpp://modelelement/CiV4cIWFYEDO6xpH', 'Pedido_Toppings\ndiagramas dulce paricho.vpp://modelelement/CiV4cIWFYEDO6xpH', 'Pedido_Toppings', this); return false;" style="padding-left: 16px; font-size: 12px" href="#"><img src="../images/icons/link.png" border="0"> link</a>	</p>
 	<p>
 	</p>
 	<table border="0" cellpadding="0" width="100%" cellspacing="0">
@@ -94,32 +94,13 @@ Properties			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">Description</span>			</td>
-			<td>
-			</td>
-			<td>
-<span class="TableContent Documentation"><head>
-    
-  </head>
-  <body style="margin-left:0;color:#000000;font-weight:normal;margin-right:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-left:0pt;margin-top:0pt;margin-right:0pt;margin-bottom:.0001pt;">
-      La entidad <strong data-end="4233" data-start="4220">Categor&#237;a</strong> 
-      permite clasificar y organizar los productos del cat&#225;logo de Dulce 
-      Capricho de acuerdo con su tipo.
-    </p>
-  </body></span>			</td>
-		</tr>
-		<tr class="TableRow2">
-			<td>
-			</td>
-			<td>
 <span class="TableContent">Data Model</span>			</td>
 			<td>
 			</td>
 			<td>
 <span class="TableContent">Physical</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -129,7 +110,7 @@ Properties			</td>
 			<td>
 <span class="TableContent">Unspecified</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -139,7 +120,7 @@ Properties			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -212,7 +193,7 @@ Columns Summary			</td>
 			</td>
 			<td class="TableContent">
 				<span class="TableContent">
-<a href="DBTable_fxwkcwWGAqACCga1.html#FKokcwWGAqACCga_" class="ItemLink">id_categoria</a>				</span>
+<a href="DBTable_CiV4cIWFYEDO6xpH.html#diV4cIWFYEDO6xpJ" class="ItemLink">Pedidoid_pedido</a>				</span>
 			</td>
 			<td>
 			</td>
@@ -221,7 +202,7 @@ Columns Summary			</td>
 			<td>
 			</td>
 			<td class="TableContent">
-PK			</td>
+PK / FK			</td>
 			<td>
 			</td>
 			<td class="TableContent">
@@ -229,30 +210,23 @@ No			</td>
 			<td>
 			</td>
 			<td class="TableContent Documentation">
-<head>
-    
-  </head>
-  <body style="margin-left:0;color:#000000;font-weight:normal;margin-right:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-left:0pt;margin-top:0pt;margin-right:0pt;margin-bottom:.0001pt;">
-      Identificador &#250;nico de la categor&#237;a.
-    </p>
-  </body>			</td>
+			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td>
 			</td>
 			<td class="TableContent">
 				<span class="TableContent">
-<a href="DBTable_fxwkcwWGAqACCga1.html#iN4kcwWGAqACCgbC" class="ItemLink">Categoria</a>				</span>
+<a href="DBTable_CiV4cIWFYEDO6xpH.html#QSV4cIWFYEDO6xpP" class="ItemLink">Toppingsid_toppings</a>				</span>
 			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">varchar(25)</span>			</td>
+<span class="TableContent">integer(10)</span>			</td>
 			<td>
 			</td>
 			<td class="TableContent">
-			</td>
+PK / FK			</td>
 			<td>
 			</td>
 			<td class="TableContent">
@@ -260,14 +234,7 @@ No			</td>
 			<td>
 			</td>
 			<td class="TableContent Documentation">
-<head>
-    
-  </head>
-  <body style="margin-left:0;color:#000000;font-weight:normal;margin-right:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-left:0pt;margin-top:0pt;margin-right:0pt;margin-bottom:.0001pt;">
-      Nombre de la categor&#237;a utilizada para clasificar los productos.
-    </p>
-  </body>			</td>
+			</td>
 		</tr>
 	</table>
 	<table border="0" cellpadding="0" width="100%" cellspacing="0">
@@ -328,7 +295,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/OneToManyRelationship.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/OneToManyRelationship.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html#XlMX8wWGAqACChFR" class="ItemLink"> : Relationship</a>				</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html#3CV4cIWFYEDO6xpC" class="ItemLink"> : Relationship</a>				</span>
 			</td>
 			<td class="TableCellSpaceHolder20Px">
 			</td>
@@ -336,7 +303,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Entity.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Entity.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html" class="ItemLink">Categoria : Entity</a>				</span>
+&nbsp;<a href="DBTable_xaRocwWGAqACCgX6.html" class="ItemLink">Pedido : Entity</a>				</span>
 			</td>
 			<td class="TableCellSpaceHolder20Px">
 			</td>
@@ -344,7 +311,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Entity.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Entity.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_MPT4cwWGAqACCgZ8.html" class="ItemLink">Producto : Entity</a>				</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html" class="ItemLink">Pedido_Toppings : Entity</a>				</span>
 			</td>
 		</tr>
 		<tr class="TableRow2">
@@ -354,7 +321,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/OneToManyRelationship.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/OneToManyRelationship.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html#p.7YcIWFYEDO6xkO" class="ItemLink"> : Relationship</a>				</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html#HiV4cIWFYEDO6xpM" class="ItemLink"> : Relationship</a>				</span>
 			</td>
 			<td class="TableCellSpaceHolder20Px">
 			</td>
@@ -362,7 +329,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Entity.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Entity.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html" class="ItemLink">Categoria : Entity</a>				</span>
+&nbsp;<a href="DBTable_eJMh8wWGAqACCgly.html" class="ItemLink">Toppings : Entity</a>				</span>
 			</td>
 			<td class="TableCellSpaceHolder20Px">
 			</td>
@@ -370,7 +337,7 @@ Relationships Summary			</td>
 				<span class="TableContent">
 					<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Entity.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Entity.png'); background-repeat: no-repeat; background-size: contain;">
 					</div>
-&nbsp;<a href="DBTable_3e7YcIWFYEDO6xkJ.html" class="ItemLink">Producto_Categoria : Entity</a>				</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html" class="ItemLink">Pedido_Toppings : Entity</a>				</span>
 			</td>
 		</tr>
 	</table>
@@ -398,7 +365,7 @@ Columns Detail			</td>
 			</td>
 		</tr>
 	</table>
-<a name="FKokcwWGAqACCga_"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+<a name="diV4cIWFYEDO6xpJ"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
 		<tr>
 			<td colSpan="4" class="TableHeaderLine">
 			</td>
@@ -429,26 +396,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">id_categoria</span>			</td>
+<span class="TableContent">Pedidoid_pedido</span>			</td>
 		</tr>
 		<tr class="TableRow2">
-			<td>
-			</td>
-			<td>
-<span class="TableContent">Description</span>			</td>
-			<td>
-			</td>
-			<td>
-<span class="TableContent Documentation"><head>
-    
-  </head>
-  <body style="margin-left:0;color:#000000;font-weight:normal;margin-right:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-left:0pt;margin-top:0pt;margin-right:0pt;margin-bottom:.0001pt;">
-      Identificador &#250;nico de la categor&#237;a.
-    </p>
-  </body></span>			</td>
-		</tr>
-		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -458,7 +408,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">integer</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -468,7 +418,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -476,9 +426,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">true</span>			</td>
+<span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -488,7 +438,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">true</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -498,7 +448,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -508,7 +458,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">10</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -518,7 +468,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">0</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -528,7 +478,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">native</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -536,9 +486,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">false</span>			</td>
+<span class="TableContent">true</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -548,7 +498,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">Unspecified</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -571,7 +521,7 @@ Columns Detail			</td>
 	</table>
 	<p>
 	</p>
-<a name="iN4kcwWGAqACCgbC"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+<a name="QSV4cIWFYEDO6xpP"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
 		<tr>
 			<td colSpan="4" class="TableHeaderLine">
 			</td>
@@ -602,26 +552,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">Categoria</span>			</td>
+<span class="TableContent">Toppingsid_toppings</span>			</td>
 		</tr>
 		<tr class="TableRow2">
-			<td>
-			</td>
-			<td>
-<span class="TableContent">Description</span>			</td>
-			<td>
-			</td>
-			<td>
-<span class="TableContent Documentation"><head>
-    
-  </head>
-  <body style="margin-left:0;color:#000000;font-weight:normal;margin-right:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-left:0pt;margin-top:0pt;margin-right:0pt;margin-bottom:.0001pt;">
-      Nombre de la categor&#237;a utilizada para clasificar los productos.
-    </p>
-  </body></span>			</td>
-		</tr>
-		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -629,9 +562,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">varchar</span>			</td>
+<span class="TableContent">integer</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -641,7 +574,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -651,7 +584,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -659,9 +592,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">false</span>			</td>
+<span class="TableContent">true</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -671,7 +604,7 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">false</span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td>
 			</td>
 			<td>
@@ -679,9 +612,9 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">25</span>			</td>
+<span class="TableContent">10</span>			</td>
 		</tr>
-		<tr class="TableRow1">
+		<tr class="TableRow2">
 			<td>
 			</td>
 			<td>
@@ -691,6 +624,16 @@ Columns Detail			</td>
 			<td>
 <span class="TableContent">0</span>			</td>
 		</tr>
+		<tr class="TableRow1">
+			<td>
+			</td>
+			<td>
+<span class="TableContent">Id Generator</span>			</td>
+			<td>
+			</td>
+			<td>
+<span class="TableContent">native</span>			</td>
+		</tr>
 		<tr class="TableRow2">
 			<td>
 			</td>
@@ -699,7 +642,7 @@ Columns Detail			</td>
 			<td>
 			</td>
 			<td>
-<span class="TableContent">false</span>			</td>
+<span class="TableContent">true</span>			</td>
 		</tr>
 		<tr class="TableRow1">
 			<td>
@@ -746,7 +689,7 @@ Relationships Detail			</td>
 			</td>
 		</tr>
 	</table>
-<a name="XlMX8wWGAqACChFR"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+<a name="3CV4cIWFYEDO6xpC"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
 		<tr>
 			<td colSpan="4" class="TableHeaderLine">
 			</td>
@@ -792,7 +735,7 @@ Relationships Detail			</td>
 						<td class="TableCellSpaceHolder10Px">
 						</td>
 						<td>
-<span class="TableHeaderText">Producto</span>						</td>
+<span class="TableHeaderText">Pedido_Toppings</span>						</td>
 					</tr>
 					<tr>
 						<td colSpan="2" class="TableHeaderLine2">
@@ -805,7 +748,7 @@ Relationships Detail			</td>
 							<span class="TableContent">
 								<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Column.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Column.png'); background-repeat: no-repeat; background-size: contain;">
 								</div>
-&nbsp;<a href="DBTable_MPT4cwWGAqACCgZ8.html#GQNEcwWGAqACCgaP" class="ItemLink">id_categoria : Column</a>							</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html#diV4cIWFYEDO6xpJ" class="ItemLink">Pedidoid_pedido : Column</a>							</span>
 						</td>
 					</tr>
 				</table>
@@ -824,7 +767,7 @@ Relationships Detail			</td>
 						<td class="TableCellSpaceHolder10Px">
 						</td>
 						<td>
-<span class="TableHeaderText">Categoria</span>						</td>
+<span class="TableHeaderText">Pedido</span>						</td>
 					</tr>
 					<tr>
 						<td colSpan="2" class="TableHeaderLine2">
@@ -837,7 +780,7 @@ Relationships Detail			</td>
 							<span class="TableContent">
 								<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Column.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Column.png'); background-repeat: no-repeat; background-size: contain;">
 								</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html#FKokcwWGAqACCga_" class="ItemLink">id_categoria : Column</a>							</span>
+&nbsp;<a href="DBTable_xaRocwWGAqACCgX6.html#jDDocwWGAqACCgX_" class="ItemLink">id_pedido : Column</a>							</span>
 						</td>
 					</tr>
 				</table>
@@ -902,7 +845,7 @@ Relationships Detail			</td>
 	</table>
 	<p>
 	</p>
-<a name="p.7YcIWFYEDO6xkO"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
+<a name="HiV4cIWFYEDO6xpM"></a>	<table border="0" cellpadding="0" width="100%" cellspacing="0">
 		<tr>
 			<td colSpan="4" class="TableHeaderLine">
 			</td>
@@ -948,7 +891,7 @@ Relationships Detail			</td>
 						<td class="TableCellSpaceHolder10Px">
 						</td>
 						<td>
-<span class="TableHeaderText">Producto_Categoria</span>						</td>
+<span class="TableHeaderText">Pedido_Toppings</span>						</td>
 					</tr>
 					<tr>
 						<td colSpan="2" class="TableHeaderLine2">
@@ -961,7 +904,7 @@ Relationships Detail			</td>
 							<span class="TableContent">
 								<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Column.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Column.png'); background-repeat: no-repeat; background-size: contain;">
 								</div>
-&nbsp;<a href="DBTable_3e7YcIWFYEDO6xkJ.html#7.7YcIWFYEDO6xkR" class="ItemLink">Categoriaid_categoria : Column</a>							</span>
+&nbsp;<a href="DBTable_CiV4cIWFYEDO6xpH.html#QSV4cIWFYEDO6xpP" class="ItemLink">Toppingsid_toppings : Column</a>							</span>
 						</td>
 					</tr>
 				</table>
@@ -980,7 +923,7 @@ Relationships Detail			</td>
 						<td class="TableCellSpaceHolder10Px">
 						</td>
 						<td>
-<span class="TableHeaderText">Categoria</span>						</td>
+<span class="TableHeaderText">Toppings</span>						</td>
 					</tr>
 					<tr>
 						<td colSpan="2" class="TableHeaderLine2">
@@ -993,7 +936,7 @@ Relationships Detail			</td>
 							<span class="TableContent">
 								<div style="float: left; width: 18px !important;height: 18px !important;background-image:url(../images/icons/Column.png) !important; background-image:url(''); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/Column.png'); background-repeat: no-repeat; background-size: contain;">
 								</div>
-&nbsp;<a href="DBTable_fxwkcwWGAqACCga1.html#FKokcwWGAqACCga_" class="ItemLink">id_categoria : Column</a>							</span>
+&nbsp;<a href="DBTable_eJMh8wWGAqACCgly.html#XFch8wWGAqACCgl8" class="ItemLink">id_toppings : Column</a>							</span>
 						</td>
 					</tr>
 				</table>
