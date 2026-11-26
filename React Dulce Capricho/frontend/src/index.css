@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #fff5f7;
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.bi-cake2 {
+  color: #e91e63;
+}
+
+.btn-primary {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.btn-primary:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
